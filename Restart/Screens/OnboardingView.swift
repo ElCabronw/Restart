@@ -19,10 +19,6 @@ struct OnboardingView: View {
     @State private var textTitle: String =  "Share."
     
     let hapticFeedback = UINotificationFeedbackGenerator()
-//    @State private var textTest: String =   """
-//                    It's not how much we give but
-//                    how much love we put into giving.
-//                    """
     
     var body: some View {
         ZStack {
